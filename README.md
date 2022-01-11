@@ -23,4 +23,4 @@ Example: http://localhost:8080/domain/lookup/twitter - to pull all twitter relat
 
 
 ## Architecture  
-![alt text](https://drive.google.com/file/d/1R_PeicjwL2afRepq7TVkUUbXDa8Vf2Hn/view?usp=sharing)
+![alt text](https://scontent.fskp1-2.fna.fbcdn.net/v/t1.15752-9/271444987_1111009943047985_4749383452599806509_n.png?_nc_cat=101&ccb=1-5&_nc_sid=ae9488&_nc_ohc=Xl_1eohY5lwAX_RPKmL&_nc_ht=scontent.fskp1-2.fna&oh=03_AVK1C0S4p-qxcaV1Nlff4BM0ai08_jN7wzffLGSupyYYFA&oe=6201F456)
