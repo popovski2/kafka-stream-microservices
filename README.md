@@ -12,15 +12,15 @@ From the **web.domains** topic, I am consuming the data using **domain-processor
 From the **active.web-domains** topic, I am consuming the message via the **domain-service** and I am logging them.  
 
 ## Microservices 
-'domain-crawler' - uses Spring Kafka
-'domain-processor' - uses Spring Cloud Stream with Kafka Streams binder
-'domain-service' - uses Spring Cloud Stream with Kafka Streams binder
+'domain-crawler' - uses Spring Kafka  
+'domain-processor' - uses Spring Cloud Stream with Kafka Streams binder  
+'domain-service' - uses Spring Cloud Stream with Kafka Streams binder  
 
 
 ## Endpoint
-http://localhost:8080/domain/lookup/ + "name"  - to pull all web domain names related to some topic
+http://localhost:8080/domain/lookup/ + "name"  - to pull all web domain names related to some topic  
 Example: http://localhost:8080/domain/lookup/twitter - to pull all twitter related web domain names
 
 
 ## Architecture  
-![alt text](https://scontent.fskp1-2.fna.fbcdn.net/v/t1.15752-9/271444987_1111009943047985_4749383452599806509_n.png?_nc_cat=101&ccb=1-5&_nc_sid=ae9488&_nc_ohc=Xl_1eohY5lwAX_RPKmL&_nc_ht=scontent.fskp1-2.fna&oh=03_AVK1C0S4p-qxcaV1Nlff4BM0ai08_jN7wzffLGSupyYYFA&oe=6201F456)
+![kafka_arhitektura](https://scontent.fskp1-2.fna.fbcdn.net/v/t1.15752-9/271444987_1111009943047985_4749383452599806509_n.png?_nc_cat=101&ccb=1-5&_nc_sid=ae9488&_nc_ohc=Xl_1eohY5lwAX_RPKmL&_nc_ht=scontent.fskp1-2.fna&oh=03_AVK1C0S4p-qxcaV1Nlff4BM0ai08_jN7wzffLGSupyYYFA&oe=6201F456)
