@@ -3,6 +3,7 @@
 
 ## Description
 The app I built is using Kafka into Spring Boot application.  
+
 domain-crawler is the **Kafka Producer** that scrapes the data from https://api.domainsdb.info/v1/domains/, where it can find active or inactive domains on the internet. The specific topic on which it scrapes is the name which we provide through the *endpoint* (see below). Once the domain-crawler got the information, it publishes on kafka topic named **web-domains**.  
 
 *Note: By here, I am using Spring Kafka, not Kafka Streams  
@@ -13,8 +14,8 @@ From the **active.web-domains** topic, I am consuming the message via the **doma
 
 ## Microservices 
 'domain-crawler' - uses Spring Kafka  
-'domain-processor' - uses Spring Cloud Stream with Kafka Streams binder  
-'domain-service' - uses Spring Cloud Stream with Kafka Streams binder  
+'domain-processor' - uses Spring Cloud Stream with Kafka Streams    
+'domain-service' - uses Spring Cloud Stream with Kafka Streams    
 
 
 ## Endpoint
