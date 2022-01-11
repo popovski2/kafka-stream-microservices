@@ -22,5 +22,5 @@ http://localhost:8080/domain/lookup/ + "name"  - to pull all web domain names re
 Example: http://localhost:8080/domain/lookup/twitter - to pull all twitter related web domain names
 
 
-## Architecture
-
+## Architecture  
+![alt text](https://drive.google.com/file/d/1R_PeicjwL2afRepq7TVkUUbXDa8Vf2Hn/view?usp=sharing)
