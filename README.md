@@ -30,5 +30,5 @@ Example: http://localhost:8080/domain/lookup/twitter - to pull all twitter relat
 https://drive.google.com/file/d/1DlJY7r27PU6oymzyI0ZAUILTzVwTlfqd/view?usp=sharing
 
 ### References
-[1] https://javatechonline.com/how-to-work-with-apache-kafka-in-spring-boot/
+[1] https://javatechonline.com/how-to-work-with-apache-kafka-in-spring-boot/  
 [2] https://www.youtube.com/watch?v=rqjdSbIOrJ4&ab_channel=TechPrimers
