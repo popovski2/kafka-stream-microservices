@@ -24,7 +24,7 @@ Example: http://localhost:8080/domain/lookup/twitter - to pull all twitter relat
 
 
 ## Architecture  
-![kafka_arhitektura](https://drive.google.com/file/d/1R_PeicjwL2afRepq7TVkUUbXDa8Vf2Hn/view?usp=sharing)
+![kafka_arhitektura](kafka_architecture.png)
 
 ## Video 
 https://drive.google.com/file/d/1DlJY7r27PU6oymzyI0ZAUILTzVwTlfqd/view?usp=sharing
